@@ -34,6 +34,12 @@ h2{
     margin: 0;
 }
 
+h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0;
+}
+
 #presentationContainer {
     padding: 2.5rem 7.5rem;
     height: 100vh;
@@ -147,4 +153,17 @@ h2{
     justify-content: space-between;
     align-items: center ;
     margin-top: 8.5rem;
+}
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5rem;
+    margin-top: 5.6rem;
+}
+.griditem > h3 {
+    margin-top: .5rem;
+}
+.gridItem > p {
+    margin: .5rem 0 0;
 }
